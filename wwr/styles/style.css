@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    color:  #396E94;
+    margin: 65px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #1446A0;
+    color: #EE7B30;
+}
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+
+.button-box {
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+}
+
+body {
+    background-color: #fcfbfb; 
+}
+header {
+    background-color:#FFF7F8;
+    display: flex;
+}
+
+.home-title {
+    color: #1446A0;
+}
+
+h4 {
+    color: #1446A0;
+}
+
+.book, .join {
+    color:#EE7B30;
+    text-decoration: none;
+    border:#1446A0;
+}
+
+.book:hover, .join:hover {
+    color:#EE7B30;
+    background-color: #1446A0;
+}
+
+.msg h2 {
+    color:#396E94;
+}
+
+.msg p {
+    color:#396E94;
+}
+
+footer {
+    background-color: #80D39B;
+    text-align: center;
+}
+
+footer a {
+    text-align: center;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer a:hover {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.icon {
+    width: 80px;
+}
+
+#hero-img {
+    width: 100%;
+}
