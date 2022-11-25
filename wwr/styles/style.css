@@ -112,6 +112,20 @@ h4 {
     background-color:#EE7B30;
 }
 
+.home, .join {
+    color:#ffffff;
+    background-color: #3c3d3f;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.home:hover, .join:hover {
+    color:#080505;
+    background-color:#bbb5b2;
+}
+
 .msg {
     background-color: grey;
     margin-bottom: 100px;
@@ -198,6 +212,16 @@ main section img {
     grid-column: 2/7;
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
+}
+main {
+    padding: 0;
+}
+
+.flexer {
+    margin-left: 5rem;
+    display:flex;
+    justify-content:space-between;
+    padding-top: 10rem;
 }
 
 @media screen and (max-width: 900px) {
