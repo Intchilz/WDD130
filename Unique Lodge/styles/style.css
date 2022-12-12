@@ -1,0 +1,94 @@
+.logo {
+    display: grid;
+    grid-template-columns: 100%;
+    justify-items: center;
+    padding-top: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a {
+    color: #9F193A;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: black;
+    color:#E7E5DF;
+}
+
+.heros {
+    background-color: ghostwhite;
+    padding: 5rem;
+
+}
+
+#hero-msg h1 {
+    text-align: center;
+    color: #9F193A;
+}
+
+#hero-msg h4 {
+    text-align: center;
+    color: #9F193A; 
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding:3rem;
+}
+
+.accomodation-card {
+    grid-column: 1;
+}
+
+.accomodation-card, h2 {
+    text-align: center;
+}
+
+.bar-card, h2 {
+    text-align: center;
+}
+
+.pool-card {
+    text-align: center;
+}
+
+.heading {
+    padding-top:2rem;
+    text-align: center;
+    color: #9F193A; 
+}
+
+footer {
+    background-color:#E8871E;
+    padding: 60px 50px;
+    margin-top: 50px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    text-align: center;
+    margin-top: 200px;
+}
+
+footer p {
+    font-size: 1.2em;
+    
+}
+
+footer a:hover {
+    text-align: center;
+    text-decoration: underline;
+}
+
