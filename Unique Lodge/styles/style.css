@@ -24,6 +24,10 @@ nav a:hover {
     color:#E7E5DF;
 }
 
+.join {
+    text-align: center;
+}
+
 .heros {
     background-color: ghostwhite;
     padding: 5rem;
@@ -92,3 +96,25 @@ footer a:hover {
     text-decoration: underline;
 }
 
+#Heros {
+    background-color: ghostwhite;
+    padding:5rem;
+}
+
+#Heros, #hero-msg, .join {
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #E7E5DF;
+}
+
+.join {
+    background-color: black;
+    padding: 12px 30px;
+    border-radius: 5px;
+}
+
+.join:hover {
+    color:#9F193A;
+    background-color:#E8871E;
+}
