@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+
+:root {
+    --heading-font: "Roboto & Family";
+    --paragraph-font: sans-serif;  
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: var(--headline-color-on-white);
+}
+
 .logo {
     display: grid;
     grid-template-columns: 100%;
@@ -30,8 +43,7 @@ nav a:hover {
 
 .heros {
     background-color: ghostwhite;
-    padding: 5rem;
-
+    padding-top: 20px;
 }
 
 #hero-msg h1 {
@@ -39,15 +51,19 @@ nav a:hover {
     color: #9F193A;
 }
 
-#hero-msg h4 {
+#hero-msg h3 {
     text-align: center;
     color: #9F193A; 
+}
+#hero-msg h4 {
+    text-align: center;
+    color:#9F193A;
 }
 
 .home-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding:3rem;
+    padding: 3rem;
 }
 
 .accomodation-card {
@@ -62,6 +78,12 @@ nav a:hover {
     text-align: center;
 }
 
+.home-grid, h4 {
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .pool-card {
     text-align: center;
 }
@@ -71,10 +93,13 @@ nav a:hover {
     text-align: center;
     color: #9F193A; 
 }
+section {
+    padding-bottom: 7rem;
+}
 
 footer {
     background-color:#E8871E;
-    padding: 60px 50px;
+    padding: 30px 50px;
     margin-top: 50px; 
     display: flex;
     justify-content: space-around;
